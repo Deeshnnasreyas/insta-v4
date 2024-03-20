@@ -1,3 +1,4 @@
+import Header from "@/components/Header";
 import Head from "next/head";
 import Image from "next/image";
 export default function Home() {
@@ -7,7 +8,8 @@ export default function Home() {
     <mete name="description" content="General"/>
     <link rel="icon" href="/favicon.ico" />
     </Head>
-    <h1>Helloo</h1>
+    <Header/>
+
     </div>
   );
 }
